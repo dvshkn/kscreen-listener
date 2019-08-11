@@ -1,0 +1,9 @@
+debounce: 5.0
+
+display_name: DP1
+
+on_connect:
+  - dock_laptop.sh
+
+on_disconnect:
+  - undock_laptop.sh
